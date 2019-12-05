@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f63e175d-19bb-4530-9d57-34e078b6a574" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/testsqlpost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/The_Meat.py" beforeDir="false" afterPath="$PROJECT_DIR$/The_Meat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_Meat.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_meat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.The_Meat">
+  <component name="RunManager" selected="Python.the_meat">
     <configuration name="The_Meat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Equipment_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +73,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The_Meat.py" />
+      <option name="SCRIPT_NAME" value="C:\Git\bluntpencils\Equipment_System\the_meat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,10 +126,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="the_meat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Equipment_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the_meat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.The_Meat" />
+        <item itemvalue="Python.the_meat" />
         <item itemvalue="Python.testsqlpost" />
+        <item itemvalue="Python.The_Meat" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -157,8 +179,18 @@
       <workItem from="1574953768373" duration="2336000" />
       <workItem from="1575217363505" duration="552000" />
       <workItem from="1575218729206" duration="3378000" />
-      <workItem from="1575287779877" duration="2941000" />
+      <workItem from="1575287779877" duration="5329000" />
+      <workItem from="1575399883517" duration="1488000" />
+      <workItem from="1575557507114" duration="12999000" />
     </task>
+    <task id="LOCAL-00001" summary="Got the func items_from_particular_user working">
+      <created>1575298329410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575298329410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,9 +209,14 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got the func items_from_particular_user working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the func items_from_particular_user working" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Equipment_System$The_Meat.coverage" NAME="The_Meat Coverage Results" MODIFIED="1575298124546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$The_Meat.coverage" NAME="The_Meat Coverage Results" MODIFIED="1575312513673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$test.coverage" NAME="test Coverage Results" MODIFIED="1574422111717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Equipment_System$testsqlpost.coverage" NAME="testsqlpost Coverage Results" MODIFIED="1575219296484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$the_meat.coverage" NAME="the_meat Coverage Results" MODIFIED="1575572445175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$testsqlpost.coverage" NAME="testsqlpost Coverage Results" MODIFIED="1575571944502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
