@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63e175d-19bb-4530-9d57-34e078b6a574" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/available_items_UI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsqlpost.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsqlpost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_meat.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_meat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +41,15 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python38-32/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\bluntpencils\Equipment_System" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.the_meat">
+  <component name="RunManager" selected="Python.available_items (1)">
     <configuration name="The_Meat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Equipment_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="available_items (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Equipment_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +99,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Git\bluntpencils\Equipment_System\test input.py" />
+      <option name="SCRIPT_NAME" value="C:\Git\bluntpencils\Equipment_System\available_items_UI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="available_items" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Equipment_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/UI's" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/UI's/available_items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,10 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.available_items (1)" />
+        <item itemvalue="Python.available_items" />
         <item itemvalue="Python.the_meat" />
         <item itemvalue="Python.testsqlpost" />
         <item itemvalue="Python.The_Meat" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +209,8 @@
       <workItem from="1575287779877" duration="5329000" />
       <workItem from="1575399883517" duration="1488000" />
       <workItem from="1575557507114" duration="13312000" />
-      <workItem from="1575616380651" duration="4200000" />
+      <workItem from="1575616380651" duration="4366000" />
+      <workItem from="1575630630035" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="Got the func items_from_particular_user working">
       <created>1575298329410</created>
@@ -197,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575572699262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Check_out function works now! :D">
+      <created>1575625342347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575625342347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,11 +255,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got the func items_from_particular_user working" />
     <MESSAGE value="Added to check_out function but not working yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to check_out function but not working yet" />
+    <MESSAGE value="Check_out function works now! :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check_out function works now! :D" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Equipment_System$The_Meat.coverage" NAME="The_Meat Coverage Results" MODIFIED="1575312513673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$available_items.coverage" NAME="available_items Coverage Results" MODIFIED="1575639247427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/UI's" />
     <SUITE FILE_PATH="coverage/Equipment_System$test.coverage" NAME="test Coverage Results" MODIFIED="1574422111717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$available_items__1_.coverage" NAME="available_items (1) Coverage Results" MODIFIED="1575639464134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$the_meat.coverage" NAME="the_meat Coverage Results" MODIFIED="1575625033597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$testsqlpost.coverage" NAME="testsqlpost Coverage Results" MODIFIED="1575617094957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
