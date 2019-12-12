@@ -63,7 +63,19 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.logoutbutton.setText(_translate("MainWindow", "Log Out"))
-        self.available_items_label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Available Items</span></p></body></html>"))
+        self.available_items_label.setText(_translate("MainWindow",
+                                                      "<html><head/><body><p><span style=\" font-size:12pt;\">Available Items</span></p></body></html>"))
         self.checkinbutton.setText(_translate("MainWindow", "Check-in an item"))
         self.checkoutbutton.setText(_translate("MainWindow", "Check-out an item"))
         self.allitemsbutton.setText(_translate("MainWindow", "All Items"))
+
+
+if __name__ == "__main__":
+    import sys
+
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
