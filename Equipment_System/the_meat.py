@@ -82,7 +82,7 @@ def report_item(item):
         """
 
 
-check_out("item3", "05/01/2020")
+#check_out("item3", "05/01/2020")
 # all_items()
-# available_items()
+available_items()
 # items_from_particular_user("test")
