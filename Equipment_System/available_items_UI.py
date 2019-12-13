@@ -6,11 +6,21 @@
 #
 # WARNING! All changes made in this file will be lost!
 
+#self.btn_open.clicked.connect(self.openWindow)
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from all_items import Ui_all_itemsMainWindow
+#from UI_Wrangler_homemade import openWindow
 
 
 class Ui_MainWindow(object):
+    def openWindow(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_all_itemsMainWindow()
+        self.ui.setupUi(self.window)
+        self.window.show()
+
+
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
@@ -40,6 +50,7 @@ class Ui_MainWindow(object):
         self.allitemsbutton = QtWidgets.QPushButton(self.centralwidget)
         self.allitemsbutton.setMinimumSize(QtCore.QSize(0, 75))
         self.allitemsbutton.setObjectName("allitemsbutton")
+        self.allitemsbutton.clicked.connect(self.openWindow)
         self.verticalLayout.addWidget(self.allitemsbutton)
         self.gridLayout.addLayout(self.verticalLayout, 0, 2, 3, 2)
         spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)

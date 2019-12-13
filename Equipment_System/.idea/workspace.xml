@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f63e175d-19bb-4530-9d57-34e078b6a574" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI_Wrangler_homemade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_wrangler_found_online.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI_Wrangler_homemade.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI_Wrangler_homemade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/available_items_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/available_items_UI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/the_meat.py" beforeDir="false" afterPath="$PROJECT_DIR$/the_meat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_wrangler_found_online.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +88,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="all_items" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Equipment_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_items.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="available_items (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Equipment_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,28 +124,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Git\bluntpencils\Equipment_System\available_items_UI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="available_items" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Equipment_System" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/UI's" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/UI's/available_items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.UI_Wrangler_homemade" />
+        <item itemvalue="Python.all_items" />
         <item itemvalue="Python.available_items_UI" />
         <item itemvalue="Python.the_meat" />
         <item itemvalue="Python.available_items (1)" />
-        <item itemvalue="Python.available_items" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,8 @@
       <workItem from="1575616380651" duration="4366000" />
       <workItem from="1575630630035" duration="16992000" />
       <workItem from="1576137108970" duration="1199000" />
-      <workItem from="1576156019295" duration="6493000" />
+      <workItem from="1576156019295" duration="7460000" />
+      <workItem from="1576227000506" duration="9818000" />
     </task>
     <task id="LOCAL-00001" summary="Got the func items_from_particular_user working">
       <created>1575298329410</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575640471682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added simple UI for available items area. Need to link it together with the functions and get it running">
+      <created>1576165675078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576165675078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,10 +282,11 @@
     <SUITE FILE_PATH="coverage/Equipment_System$The_Meat.coverage" NAME="The_Meat Coverage Results" MODIFIED="1575312513673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$available_items.coverage" NAME="available_items Coverage Results" MODIFIED="1575639247427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/UI's" />
     <SUITE FILE_PATH="coverage/Equipment_System$available_items_UI.coverage" NAME="available_items_UI Coverage Results" MODIFIED="1576163574842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$all_items.coverage" NAME="all_items Coverage Results" MODIFIED="1576243713535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$test.coverage" NAME="test Coverage Results" MODIFIED="1574422111717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$available_items__1_.coverage" NAME="available_items (1) Coverage Results" MODIFIED="1575639464134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$the_meat.coverage" NAME="the_meat Coverage Results" MODIFIED="1575891523725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Equipment_System$testsqlpost.coverage" NAME="testsqlpost Coverage Results" MODIFIED="1575617094957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Equipment_System$UI_Wrangler_homemade.coverage" NAME="UI_Wrangler_homemade Coverage Results" MODIFIED="1576165577070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Equipment_System$UI_Wrangler_homemade.coverage" NAME="UI_Wrangler_homemade Coverage Results" MODIFIED="1576244220404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
